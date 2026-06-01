@@ -5,7 +5,7 @@ import { featuredFrames } from "@/constants/site";
 
 export function FeaturedFrames() {
   return (
-    <section className="bg-[#F8F6F2] px-5 py-24 text-[#111111] md:px-10 md:py-36 lg:px-16">
+    <section className="bg-[#F8F6F2] px-5 pb-24 pt-14 text-[#111111] md:px-10 md:pb-36 md:pt-20 lg:px-16">
       <div className="mx-auto max-w-[1500px]">
         <Reveal className="mb-20">
           <h2 className="font-serif text-[clamp(3.6rem,8vw,8rem)] font-light leading-[0.9]">
