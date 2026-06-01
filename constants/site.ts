@@ -17,8 +17,8 @@ export const navItems: NavItem[] = [
 
 export const campaignImages = {
   concept: {
-    src: "/campaign/concept.png",
-    alt: "Luxury eyewear landing page art direction concept.",
+    src: "/campaign/concept-v2.png",
+    alt: "Black acetate luxury eyeglasses displayed on a warm stone plinth.",
   },
   hero: {
     src: "/campaign/hero.png",
@@ -31,6 +31,25 @@ export const campaignImages = {
   frame: {
     src: "/campaign/frame.png",
     alt: "Sculptural luxury eyewear frame presented as an art object.",
+  },
+} satisfies Record<string, ImageAsset>;
+
+export const frameImages = {
+  crystal: {
+    src: "/images/optical-glass1.jpeg",
+    alt: "Transparent crystal eyewear frame with soft green lenses on a white plinth.",
+  },
+  amber: {
+    src: "/images/optical-glass2.jpeg",
+    alt: "Amber acetate eyewear frame with rose-tinted lenses on a warm stone plinth.",
+  },
+  black: {
+    src: "/images/optical-glass3.jpeg",
+    alt: "Bold black rectangular eyewear frame photographed front-on.",
+  },
+  honey: {
+    src: "/images/optical-glass4.jpeg",
+    alt: "Honey acetate eyewear frame with brown lenses photographed front-on.",
   },
 } satisfies Record<string, ImageAsset>;
 
@@ -107,22 +126,28 @@ export const galleryImages: ImageAsset[] = [
 
 export const featuredFrames: FrameFeature[] = [
   {
-    name: "No. 01 Arc",
-    material: "Black acetate / titanium",
-    description: "An architectural optical frame with a softened bridge and barely visible hardware.",
-    image: campaignImages.frame,
+    name: "No. 01 Crystal",
+    material: "Crystal acetate / mineral green lens",
+    description: "A translucent frame cut with quiet geometry, built for lightness and clarity.",
+    image: frameImages.crystal,
   },
   {
-    name: "No. 07 Line",
-    material: "Brushed titanium",
-    description: "A near-weightless silhouette shaped for precision, restraint, and all-day balance.",
-    image: campaignImages.craft,
+    name: "No. 07 Amber",
+    material: "Amber acetate / rose lens",
+    description: "A warm sculptural silhouette with softened edges and a precise interior line.",
+    image: frameImages.amber,
   },
   {
-    name: "No. 12 Shade",
-    material: "Mineral lens / acetate",
-    description: "A cinematic sun frame that frames the face without performing for the room.",
-    image: campaignImages.hero,
+    name: "No. 12 Obsidian",
+    material: "Black acetate / smoke lens",
+    description: "A decisive rectangular frame with weight, polish, and gallery-like presence.",
+    image: frameImages.black,
+  },
+  {
+    name: "No. 18 Honey",
+    material: "Honey acetate / brown lens",
+    description: "A luminous sun frame shaped for warmth, balance, and long-wearing restraint.",
+    image: frameImages.honey,
   },
 ];
 
