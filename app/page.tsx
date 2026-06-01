@@ -19,10 +19,10 @@ export default function Home() {
       <main>
         <HeroSection />
         <BrandPhilosophy />
+        <FeaturedFrames />
         <SignatureCollections />
         <CraftsmanshipStory />
         <HorizontalGallery />
-        <FeaturedFrames />
         <BrandManifesto />
         <FeaturedCampaign />
         <JournalPreview />
