@@ -19,7 +19,7 @@ export function ContactShowroom() {
                 Showroom
               </p>
               <p className="mt-4 text-xl font-light leading-8">
-                18 Rue Saint-Honore<br />Paris, France
+                Dubai Design District<br />Dubai, UAE
               </p>
             </div>
             <div>
