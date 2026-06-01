@@ -25,14 +25,14 @@ export function BrandPhilosophy() {
             <p className="mb-7 text-[0.68rem] uppercase tracking-[0.32em] text-[#8B7355]">
               Philosophy
             </p>
-            <h2 className="max-w-[10.5ch] font-serif text-[clamp(3.6rem,8vw,8.2rem)] font-light leading-[0.88] tracking-[0.01em]">
+            <h2 className="max-w-[11.5ch] font-serif text-[clamp(3.25rem,5.8vw,6.3rem)] font-light leading-[0.92] tracking-[0.01em]">
               Fewer things. Better chosen.
             </h2>
           </Reveal>
 
           <div className="grid gap-10">
             <Reveal delay={0.1}>
-              <p className="max-w-[34rem] text-lg font-light leading-9 text-[#111111]/68 md:text-2xl md:leading-10">
+              <p className="max-w-[36rem] text-base font-light leading-8 text-[#111111]/68 md:text-xl md:leading-9">
                 BILL BIRD frames are built around restraint: deliberate
                 silhouettes, enduring materials, and details that reward
                 closeness rather than announce themselves from across the room.
@@ -45,7 +45,9 @@ export function BrandPhilosophy() {
                   delay={index * 0.05}
                   className="border-t border-[#111111]/16 py-5"
                 >
-                  <span className="font-serif text-3xl font-light">{point}</span>
+                  <span className="font-serif text-2xl font-light md:text-3xl">
+                    {point}
+                  </span>
                 </Reveal>
               ))}
             </div>
