@@ -34,6 +34,13 @@ export const campaignImages = {
   },
 } satisfies Record<string, ImageAsset>;
 
+export const campaignVideos = {
+  hero: {
+    src: "/video/hero.mp4",
+    poster: campaignImages.hero.src,
+  },
+} satisfies Record<string, { src: string; poster: string }>;
+
 export const frameImages = {
   crystal: {
     src: "/images/optical-glass1.jpeg",

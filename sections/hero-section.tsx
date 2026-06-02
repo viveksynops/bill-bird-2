@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 
 import { revealItem, staggerContainer } from "@/animations/easings";
-import { campaignImages } from "@/constants/site";
+import { campaignImages, campaignVideos } from "@/constants/site";
 
 export function HeroSection() {
   const { scrollYProgress } = useScroll();
@@ -33,6 +33,18 @@ export function HeroSection() {
           sizes="100vw"
           className="object-cover object-center"
         />
+        <video
+          className="absolute inset-0 hidden h-full w-full object-cover object-center motion-safe:block"
+          poster={campaignVideos.hero.poster}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          aria-hidden="true"
+        >
+          <source src={campaignVideos.hero.src} type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(248,246,242,0.88)_0%,rgba(248,246,242,0.46)_42%,rgba(248,246,242,0.06)_100%)]" />
       </motion.div>
 
