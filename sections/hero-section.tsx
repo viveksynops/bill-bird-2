@@ -26,7 +26,7 @@ export function HeroSection() {
         style={{ y: imageY, scale }}
       >
         <Image
-          src={campaignImages.hero.src}
+          src={campaignVideos.hero.poster}
           alt={campaignImages.hero.alt}
           fill
           priority

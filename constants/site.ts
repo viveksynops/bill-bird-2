@@ -37,7 +37,7 @@ export const campaignImages = {
 export const campaignVideos = {
   hero: {
     src: "/video/hero.mp4",
-    poster: campaignImages.hero.src,
+    poster: "/video/hero-poster.jpg",
   },
 } satisfies Record<string, { src: string; poster: string }>;
 
